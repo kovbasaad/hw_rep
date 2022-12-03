@@ -1,5 +1,5 @@
 #!/bin/bash
 while true; do
- date +"%H:%M"; cat /proc/loadavg
+ date +"%F_%H:%M"; cat /proc/loadavg
  sleep 10
 done;
